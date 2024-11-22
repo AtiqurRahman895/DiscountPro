@@ -1,0 +1,242 @@
+[
+    {
+      "_id": "1a2b3c4d",
+      "brand_name": "Samsung",
+      "rating": 4.8,
+      "description": "Innovative technology and premium electronics.",
+      "brand_logo": "https://i.ibb.co.com/S7J9wby/SAMSUNG.png",
+      "coupons": [
+        {
+          "coupon_code": "SAMSUNG10",
+          "description": "10% off on Samsung Galaxy smartphones.",
+          "expiry_date": "2025-01-31",
+          "condition": "Applicable on selected models.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "SAMSUNG5",
+          "description": "5% off on all other products.",
+          "expiry_date": "2025-02-15",
+          "condition": "No minimum purchase required.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.samsung.com",
+      "category": "Electronics",
+      "isSaleOn": true
+    },
+    {
+      "_id": "2e3f4g5h",
+      "brand_name": "Nike",
+      "rating": 3.7,
+      "description": "High-quality sportswear and footwear.",
+      "brand_logo": "https://i.ibb.co.com/XF0LJQB/NIKE.png",
+      "coupons": [
+        {
+          "coupon_code": "NIKE15",
+          "description": "15% off on new collections.",
+          "expiry_date": "2025-02-15",
+          "condition": "Minimum purchase $100.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.nike.com",
+      "category": "Clothing",
+      "isSaleOn": true
+    },
+    {
+      "_id": "3h4i5j6k",
+      "brand_name": "Unilever",
+      "rating": 4.6,
+      "description": "Trusted products for your home and family.",
+      "brand_logo": "https://i.ibb.co.com/C5PWy72/UNILEVER.png",
+      "coupons": [
+        {
+          "coupon_code": "SAVE20",
+          "description": "20% off on personal care products.",
+          "expiry_date": "2025-03-10",
+          "condition": "Valid for online purchases only.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "UNILEVER10",
+          "description": "10% off on all household items.",
+          "expiry_date": "2025-04-01",
+          "condition": "Valid for in-store purchases.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "UNILEVER5",
+          "description": "5% off on groceries over $50.",
+          "expiry_date": "2025-03-25",
+          "condition": "No restrictions on items.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.unilever.com",
+      "category": "Groceries",
+      "isSaleOn": true
+    },
+    {
+      "_id": "4l5m6n7o",
+      "brand_name": "Sephora",
+      "rating": 3.2,
+      "description": "World's best beauty products in one place.",
+      "brand_logo": "https://i.ibb.co.com/Hgw14BG/SEPHORA.png",
+      "coupons": [
+        {
+          "coupon_code": "BEAUTY20",
+          "description": "20% off on all cosmetics.",
+          "expiry_date": "2025-01-30",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.sephora.com",
+      "category": "Beauty",
+      "isSaleOn": false
+    },
+    {
+      "_id": "5p6q7r8s",
+      "brand_name": "Adidas",
+      "rating": 4.5,
+      "description": "Top-notch sports gear and activewear.",
+      "brand_logo": "https://i.ibb.co.com/rZLydRH/ADIDAS.png",
+      "coupons": [
+        {
+          "coupon_code": "ADIDAS25",
+          "description": "25% off on all products.",
+          "expiry_date": "2025-02-28",
+          "condition": "Applicable to new customers only.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "ADIDAS10",
+          "description": "10% off on selected sneakers.",
+          "expiry_date": "2025-03-10",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.adidas.com",
+      "category": "Fitness",
+      "isSaleOn": true
+    },
+    {
+      "_id": "6t7u8v9w",
+      "brand_name": "Sony",
+      "rating": 4.8,
+      "description": "Premium gaming consoles and electronics.",
+      "brand_logo": "https://i.ibb.co.com/ZKNrvLw/SONY.png",
+      "coupons": [
+        {
+          "coupon_code": "PLAY20",
+          "description": "20% off on PlayStation accessories.",
+          "expiry_date": "2025-03-15",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.sony.com",
+      "category": "Gaming",
+      "isSaleOn": false
+    },
+    {
+      "_id": "7x8y9z0a",
+      "brand_name": "Airbnb",
+      "rating": 3.3,
+      "description": "Unique stays and experiences around the world.",
+      "brand_logo": "https://i.ibb.co.com/SV3KCjw/AIRBNB.png",
+      "coupons": [
+        {
+          "coupon_code": "TRAVEL10",
+          "description": "10% off on first booking.",
+          "expiry_date": "2025-01-31",
+          "condition": "Applicable for new users only.",
+          "coupon_type": "Fixed Discount"
+        },
+        {
+          "coupon_code": "STAY5",
+          "description": "5% off on stays over $200.",
+          "expiry_date": "2025-02-28",
+          "condition": "No minimum stay required.",
+          "coupon_type": "Fixed Discount"
+        }
+      ],
+      "shop_link": "https://www.airbnb.com",
+      "category": "Travel",
+      "isSaleOn": true
+    },
+    {
+      "_id": "8b9c0d1e",
+      "brand_name": "Ikea",
+      "rating": 2.5,
+      "description": "Affordable furniture and home decor solutions.",
+      "brand_logo": "https://i.ibb.co.com/DL4NCCR/IKEA.png",
+      "coupons": [
+        {
+          "coupon_code": "HOME15",
+          "description": "15% off on orders above $200.",
+          "expiry_date": "2025-02-20",
+          "condition": "Valid for in-store purchases.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.ikea.com",
+      "category": "Home & Decor",
+      "isSaleOn": false
+    },
+    {
+      "_id": "9f0g1h2i",
+      "brand_name": "Apple",
+      "rating": 4.9,
+      "description": "Cutting-edge technology and luxury electronics.",
+      "brand_logo": "https://i.ibb.co.com/wcj6VwV/Apple.png",
+      "coupons": [
+        {
+          "coupon_code": "APPLE5",
+          "description": "5% off on MacBook Pro.",
+          "expiry_date": "2025-03-31",
+          "condition": "Valid for online purchases only.",
+          "coupon_type": "Fixed Discount"
+        },
+        {
+          "coupon_code": "APPLE10",
+          "description": "10% off on iPads.",
+          "expiry_date": "2025-04-15",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Fixed Discount"
+        },
+        {
+          "coupon_code": "APPLE15",
+          "description": "15% off on AirPods.",
+          "expiry_date": "2025-04-30",
+          "condition": "Online purchases only.",
+          "coupon_type": "Fixed Discount"
+        }
+      ],
+      "shop_link": "https://www.apple.com",
+      "category": "Electronics",
+      "isSaleOn": true
+    },
+    {
+      "_id": "10j1k2l3m",
+      "brand_name": "H&M",
+      "rating":3.6,
+      "description": "Fashionable clothing at affordable prices.",
+      "brand_logo": "https://i.ibb.co.com/S3cqV1Z/H-M.png",
+      "coupons": [
+        {
+          "coupon_code": "HM20",
+          "description": "20% off on new arrivals.",
+          "expiry_date": "2025-04-01",
+          "condition": "Minimum purchase $50.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.hm.com",
+      "category": "Clothing",
+      "isSaleOn": true
+    }
+  ]
+  

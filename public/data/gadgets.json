@@ -1,0 +1,172 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Astra Galaxy Ultra",
+    "product_image": "https://i.ibb.co.com/b2hvFX8/front-back-blank-white-smartphone-isolated-transparent-background-125540-3692.jpg",
+    "category": "Smartphone",
+    "price": 699,
+    "description": "A high-performance smartphone with stunning display and excellent battery life.",
+    "Specification": [
+      "6.5-inch OLED display",
+      "128GB storage",
+      "Triple-lens rear camera",
+      "5G enabled",
+      "4000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Nova Edge Pro Max",
+    "product_image": "https://i.ibb.co.com/mRb2sXp/561fb730-69cd-4728-9209-509131fe69ed.png",
+    "category": "Smartphone",
+    "price": 799,
+    "description": "Flagship smartphone with top-tier performance and a sleek design.",
+    "Specification": [
+      "6.7-inch AMOLED display",
+      "256GB storage",
+      "Quad-lens rear camera",
+      "8K video recording",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Zenith Neo Lite",
+    "product_image": "https://i.ibb.co.com/GQNTQzZ/rb-2147694815.png",
+    "category": "Smartphone",
+    "price": 599,
+    "description": "Affordable smartphone with powerful features and smooth performance.",
+    "Specification": [
+      "6.4-inch IPS LCD",
+      "64GB storage",
+      "Dual-lens rear camera",
+      "4G LTE",
+      "3500mAh battery"
+    ],
+    "availability": false,
+    "rating": 4.2
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Orion Infinity S",
+    "product_image": "https://i.ibb.co.com/sqb4MCz/rb-19784.png",
+    "category": "Smartphone",
+    "price": 549,
+    "description": "Mid-range smartphone with robust build quality and solid camera performance.",
+    "Specification": [
+      "6.2-inch Super AMOLED",
+      "128GB storage",
+      "Triple-lens rear camera",
+      "Dual SIM support",
+      "4200mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Hyperion Prime Max",
+    "product_image": "https://i.ibb.co.com/CP4WC2f/edc8ea7e-58b5-4def-b82c-4c0569486a57.png",
+    "category": "Smartphone",
+    "price": 899,
+    "description": "Premium smartphone with cutting-edge technology and superior camera quality.",
+    "Specification": [
+      "6.8-inch QHD+ display",
+      "512GB storage",
+      "Penta-lens rear camera",
+      "5G and WiFi 6 support",
+      "6000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Vortex Wave X",
+    "product_image": "https://i.ibb.co.com/kJ3s0Y6/rb-2147846501.png",
+    "category": "Smartphone",
+    "price": 750,
+    "description": "Sleek smartphone with smooth display and high-quality sound.",
+    "Specification": [
+      "6.1-inch OLED",
+      "256GB storage",
+      "Triple-lens camera",
+      "8GB RAM",
+      "4500mAh battery"
+    ],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Spectra VisionBook 15",
+    "product_image": "https://i.ibb.co.com/GR3rQgZ/373257823-11474979.png",
+    "category": "Laptop",
+    "price": 1200,
+    "description": "Powerful laptop with excellent performance for work and play.",
+    "Specification": [
+      "15.6-inch 4K display",
+      "Intel Core i7",
+      "16GB RAM",
+      "1TB SSD",
+      "NVIDIA GeForce RTX 3060"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Axon UltraSlate",
+    "product_image": "https://i.ibb.co.com/qRbwXh9/373257864-11474975.png",
+    "category": "Laptop",
+    "price": 950,
+    "description": "Lightweight ultrabook with great battery life and smooth performance.",
+    "Specification": [
+      "14-inch Full HD display",
+      "Intel Core i5",
+      "8GB RAM",
+      "512GB SSD",
+      "Intel Iris Xe Graphics"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Phantom AudioBlast",
+    "product_image": "https://i.ibb.co.com/6yrZ55m/6062ac9c-5b21-4207-9d8e-f308f637e16b.png",
+    "category": "Headphone",
+    "price": 150,
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "Specification": [
+      "Over-ear design",
+      "Active noise cancellation",
+      "Bluetooth 5.0",
+      "20 hours battery life",
+      "Fast charging"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Reverb BassWave",
+    "product_image": "https://i.ibb.co.com/26Ghs6N/209a805b-184e-4c35-b2ae-651680c42ed6.png",
+    "category": "Headphone",
+    "price": 180,
+    "description": "Headphones with deep bass and crystal-clear sound.",
+    "Specification": [
+      "On-ear design",
+      "Extra bass mode",
+      "Wireless & Wired modes",
+      "24 hours battery life",
+      "Voice assistant compatibility"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
