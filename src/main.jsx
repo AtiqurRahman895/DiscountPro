@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import {createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Base from './components/baseComponent/Base';
-// import Home from './components/HomeComponent/Home';
+import Home from './components/HomeComponent/Home';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import { HelmetProvider } from 'react-helmet-async';
@@ -40,14 +40,9 @@ const router = createBrowserRouter([
     children:[
       {
         path: "/",
-        element: <h1 className='h-[40vh]'>WELCOME TO Discount PRO</h1>,
+        element: <Home/>,
 
       },
-      // {
-      //   path: "/",
-      //   element: <Home/>,
-
-      // },
       // {
       //   path: "/brands",
       //   element: <Brands/>,

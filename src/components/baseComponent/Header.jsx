@@ -6,6 +6,7 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import logo from "../../assets/logoRemovedBg.png"
+import useUpdateLocalBookmark from "../../Hooks/useUpdateLocalBookmark";
 // import { GoUnverified } from "react-icons/go";
 
 const Header = () => {
@@ -18,8 +19,7 @@ const Header = () => {
     const [scrollY, setScrollY]=useState(0)
     const headerRef = useRef(null)
     const{user,logoutUser,verifyAccount}=useContext(AuthContext)
-    // console.log(user)
-
+    // const {bookmarks,addToBookmark}=useUpdateLocalBookmark()
 
     useEffect(()=>{
       const changeHeaderColor=()=>{
@@ -79,6 +79,8 @@ const Header = () => {
           </div>
           <div className="navbar-end">
 
+          {/* <div onClick={addToBookmark} className="primaryButton activePrimaryButton">Bookmarks {bookmarks.length}</div> */}
+
             {user? 
             // <div onClick={logoutUser} className="primaryButton activePrimaryButton">Log Out</div>
               <div className="dropdown dropdown-end text-custom-black">
@@ -122,7 +124,7 @@ const Header = () => {
               <div className="flex gap-2">
                 
                 <Link to={"/login"} className={`primaryButton activePrimaryButton`}>Login</Link>
-                <Link to={"/register"} className={`hidden sm:inline-block primaryButton activePrimaryButton`}>Registration</Link>
+                {/* <Link to={"/register"} className={`hidden sm:inline-block primaryButton activePrimaryButton`}>Registration</Link> */}
               </div>
               
             }
