@@ -34,9 +34,9 @@ const TopCategories = () => {
                         categoryCounts.map(({category,totalCount},index)=>(
                             <div onClick={()=>handleClickCard(category)} key={index}
                              className="px-4 py-6 place-items-center grid gap-3 content-center rounded-md border duration-500
-                              border-custom-primary hover:border-custom-half-primary bg-custom-half-primary
-                               hover:bg-custom-primary text-custom-primary hover:text-white hover:shadow-lg">
-                                <h4 >{category}</h4>
+                              hover:border-custom-primary bg-custom-primary 
+                               hover:bg-custom-half-primary text-white hover:text-custom-primary hover:shadow-xl">
+                                <h4 className="text-inherit">{category}</h4>
                                 <b className="text-nowrap">Brands: {totalCount}</b>
                             </div>
                         ))

@@ -46,11 +46,11 @@ const Hero = () => {
   return (
 
     <section className="">
-      <div className={`container text-white relative`}>
+      <div className={`xs:container text-white relative`}>
         <Slider {...slideSettings}>
           {
             slides.map((slide,index)=>(
-              <div key={index} className={`w-full ${slide.img} bg-center bg-cover bg-no-repeat rounded-lg`}>
+              <div key={index} className={`w-full ${slide.img} bg-center bg-cover bg-no-repeat xs:rounded-lg`}>
                 <div className="sectionHeaderWidth m-auto text-center grid justify-items-center gap-4 py-16 md:py-24 z-10">
                   <h1 className="text-white">{slide.title}</h1>
                   <p className="text-[clamp(1rem,0.8628318584070797rem+0.7079646017699115vw,1.5rem)]">{slide.subText}</p>
