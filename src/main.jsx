@@ -15,7 +15,7 @@ import PrivateRoute from './components/AuthenticationComponent/PrivateRoute';
 import UpdateProfile from './components/AuthenticationComponent/UpdateProfile';
 import ChangePassword from './components/AuthenticationComponent/ChangePassword';
 import ForgotPassword from './components/AuthenticationComponent/ForgotPassword';
-// import Brands from './components/BrandsPageComponent/Brands'
+import Brands from './components/BrandsPageComponent/Brands'
 // import Coupon from './components/CouponPageComponent/Coupon';
 // import Profile from './components/ProfilePageComponent/Profile';
 
@@ -43,10 +43,10 @@ const router = createBrowserRouter([
         element: <Home/>,
 
       },
-      // {
-      //   path: "/brands",
-      //   element: <Brands/>,
-      // },
+      {
+        path: "/brands",
+        element: <Brands/>,
+      },
       // {
       //   path: "/profile",
       //   element: <PrivateRoute><Profile/></PrivateRoute>,
