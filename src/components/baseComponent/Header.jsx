@@ -91,7 +91,7 @@ const Header = () => {
                       src={user.photoURL?`${user.photoURL}`:"https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"} />
                   </div>
                   {user.emailVerified &&
-                        <RiVerifiedBadgeFill className="text-sky-500 text-[16px] indicator-item top-2 right-3"/>
+                        <RiVerifiedBadgeFill className="text-custom-primary text-[16px] indicator-item top-2 right-0"/>
                    }
 
                 </div>

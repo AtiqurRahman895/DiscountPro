@@ -16,7 +16,7 @@ import UpdateProfile from './components/AuthenticationComponent/UpdateProfile';
 import ChangePassword from './components/AuthenticationComponent/ChangePassword';
 import ForgotPassword from './components/AuthenticationComponent/ForgotPassword';
 import Brands from './components/BrandsPageComponent/Brands'
-// import Coupon from './components/CouponPageComponent/Coupon';
+import Coupon from './components/CouponPageComponent/Coupon';
 // import Profile from './components/ProfilePageComponent/Profile';
 
 const router = createBrowserRouter([
@@ -51,10 +51,10 @@ const router = createBrowserRouter([
       //   path: "/profile",
       //   element: <PrivateRoute><Profile/></PrivateRoute>,
       // },
-      // {
-      //   path: "/brand/:_id",
-      //   element: <PrivateRoute><Coupon/></PrivateRoute>,
-      // },      
+      {
+        path: "/brand/:_id",
+        element: <PrivateRoute><Coupon/></PrivateRoute>,
+      },      
       {
         path: "/login",
         element: <Login/>,
