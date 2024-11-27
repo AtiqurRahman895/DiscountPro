@@ -7,7 +7,7 @@ const Bookmarks = () => {
         <main className="space-y-20">
             <Helmet>
                 <title>
-                    My Bookmarks | Discount PRO
+                    Bookmarks | Discount PRO
                 </title>
             </Helmet>
 

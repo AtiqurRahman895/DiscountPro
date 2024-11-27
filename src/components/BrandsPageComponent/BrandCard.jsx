@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import ReactStars from 'react-stars';
 import { IoStar, IoStarHalf, IoStarOutline } from 'react-icons/io5';
-import { BsBookmarkHeartFill } from 'react-icons/bs';
+import { BsBookmarkHeart } from 'react-icons/bs';
 import { GiPriceTag } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
 import useCheckIfBookmarked from '../../Hooks/useCheckIfBookmarked';
 import useUpdateBookmarks from '../../Hooks/useUpdateBookmarks';
 import { MdDeleteForever } from 'react-icons/md';
+import { RiCoupon3Fill } from 'react-icons/ri';
 
 const BrandCard = ({specificBrand,bookmarkPage}) => {
     const {bookmarked}= useCheckIfBookmarked({specificBrandId:specificBrand._id})
@@ -20,7 +21,7 @@ const BrandCard = ({specificBrand,bookmarkPage}) => {
     }
     
     return (
-        <div className="card border bg-white duration-500 rounded-lg hover:shadow-md">
+        <div className="card border bg-white duration-500 rounded-lg hover:shadow-md pt-4">
             <figure>
                 <img
                 src={specificBrand.brand_logo}
@@ -48,7 +49,7 @@ const BrandCard = ({specificBrand,bookmarkPage}) => {
                 <div className="flex gap-4">
                     <Link to={`/brand/${specificBrand._id}`} className="cardButton">View Coupons</Link>
                     {!bookmarkPage?
-                        <button type='button' onClick={manageBookmarkButton} className={`cardButton2 ${bookmarked&&"activeCardButton"}`} style={{paddingInline:"9px", paddingBlock:"0rem"}}><BsBookmarkHeartFill className='text-lg'/></button>
+                        <button type='button' onClick={manageBookmarkButton} className={`cardButton2 ${bookmarked&&"activeCardButton"}`} style={{paddingInline:"9px", paddingBlock:"0rem"}}><BsBookmarkHeart className='text-lg' /></button>
                     :   
                         <button type='button' onClick={manageBookmarkButton} className={`cardButton`} style={{paddingInline:"6px", paddingBlock:"0rem"}}><MdDeleteForever className='text-2xl'/></button>
                     }
@@ -56,10 +57,20 @@ const BrandCard = ({specificBrand,bookmarkPage}) => {
                     
                 </div>
                 {
-                    specificBrand.isSaleOn && <div className='flex items-center gap-1 animate-bounce absolute text-nowrap top-4 left-4'>
-                        <GiPriceTag className='text-custom-primary' />
-                        <a className='text-custom-primary text-xs '>Sale is on</a>
+                    <div className="w-full px-6 flex justify-between animate-bounce absolute text-nowrap top-3 left-0">
+                        <div className='flex items-center gap-1 '>
+                            <RiCoupon3Fill className="text-[14px] text-custom-primary"/>
+                            <p className='text-custom-primary text-xs '>Coupons: {specificBrand.coupons.length}</p>
+                        </div>
+                        {
+                            specificBrand.isSaleOn && <div className='flex items-center gap-1 '>
+                                <GiPriceTag className='text-custom-primary' />
+                                <p className='text-custom-primary text-xs '>Sale is on</p>
+                            </div>
+                        }
+
                     </div>
+
                 }
                 
             </div>
