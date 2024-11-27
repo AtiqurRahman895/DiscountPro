@@ -4,7 +4,7 @@ import { useContext, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { TransferLists } from "../../Contexts/TransferLists";
 import BrandsPageSidebar from "./BrandsPageSidebar";
-import BrandCards from "./BrandCards"
+import BrandCardsSection from "./BrandCardsSection"
 
 const Brands = () => {
     const {selectedCategory,setSelectedCategory,searchedBrand,setSearchedBrand}= useContext(TransferLists)
@@ -34,7 +34,7 @@ const Brands = () => {
                             
                         </div>
                         <div className="col-span-12 md:col-span-8 z-10">
-                            <BrandCards />
+                            <BrandCardsSection />
                         </div>
                     </div>
 

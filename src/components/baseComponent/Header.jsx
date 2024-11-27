@@ -6,7 +6,6 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import logo from "../../assets/logoRemovedBg.png"
-import useUpdateLocalBookmark from "../../Hooks/useUpdateLocalBookmark";
 // import { GoUnverified } from "react-icons/go";
 
 const Header = () => {
@@ -19,7 +18,6 @@ const Header = () => {
     const [scrollY, setScrollY]=useState(0)
     const headerRef = useRef(null)
     const{user,logoutUser,verifyAccount}=useContext(AuthContext)
-    // const {bookmarks,addToBookmark}=useUpdateLocalBookmark()
 
     useEffect(()=>{
       const changeHeaderColor=()=>{
@@ -78,8 +76,6 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end">
-
-          {/* <div onClick={addToBookmark} className="primaryButton activePrimaryButton">Bookmarks {bookmarks.length}</div> */}
 
             {user? 
             // <div onClick={logoutUser} className="primaryButton activePrimaryButton">Log Out</div>

@@ -6,10 +6,23 @@ import { Helmet } from "react-helmet-async";
 import { IoStar } from "react-icons/io5";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { toast } from "react-toastify";
+import { BsBookmarkHeartFill } from "react-icons/bs";
+import useCheckIfBookmarked from "../../Hooks/useCheckIfBookmarked";
+import useUpdateBookmarks from "../../Hooks/useUpdateBookmarks";
 
 const Coupon = () => {
   const { _id } = useParams();
   const specificBrand = useSpecificBrand({ brandId: _id });
+  
+  const {bookmarked}= useCheckIfBookmarked({specificBrandId:_id})
+  const {addToBookmarks,removeFromBookmarks}= useUpdateBookmarks({specificBrand})
+  const manageBookmarkButton=()=>{
+      if(bookmarked){
+          removeFromBookmarks()
+      }else{
+          addToBookmarks()
+      }
+  }
 
   return (
     <main>
@@ -34,9 +47,11 @@ const Coupon = () => {
                       <IoStar />
                     </div>
                     {specificBrand.isSaleOn && <p className="">Sale is on</p>}
-                    
-                    
                   </div>
+                    
+                  <BsBookmarkHeartFill onClick={manageBookmarkButton} className={`${bookmarked&&"text-custom-primary"} text-2xl cursor-pointer`} />
+
+
                 </div>
                 
               </div>

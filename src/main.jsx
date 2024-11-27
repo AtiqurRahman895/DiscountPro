@@ -17,7 +17,7 @@ import ChangePassword from './components/AuthenticationComponent/ChangePassword'
 import ForgotPassword from './components/AuthenticationComponent/ForgotPassword';
 import Brands from './components/BrandsPageComponent/Brands'
 import Coupon from './components/CouponPageComponent/Coupon';
-// import Profile from './components/ProfilePageComponent/Profile';
+import Bookmarks from './components/BookmarksPageComponent/Bookmarks';
 
 const router = createBrowserRouter([
   {
@@ -47,10 +47,10 @@ const router = createBrowserRouter([
         path: "/brands",
         element: <Brands/>,
       },
-      // {
-      //   path: "/profile",
-      //   element: <PrivateRoute><Profile/></PrivateRoute>,
-      // },
+      {
+        path: "/bookmarks",
+        element: <PrivateRoute><Bookmarks/></PrivateRoute>,
+      },
       {
         path: "/brand/:_id",
         element: <PrivateRoute><Coupon/></PrivateRoute>,

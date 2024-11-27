@@ -237,6 +237,253 @@
       "shop_link": "https://www.hm.com",
       "category": "Clothing",
       "isSaleOn": true
+    },
+    {
+      "_id": "11a22b33c",
+      "brand_name": "Dell",
+      "rating": 4.7,
+      "description": "Leading laptops and desktops for work and play.",
+      "brand_logo": "https://i.ibb.co.com/h29S9jX/DELL.png",
+      "coupons": [
+        {
+          "coupon_code": "DELL10",
+          "description": "10% off on Inspiron laptops.",
+          "expiry_date": "2025-03-20",
+          "condition": "Applicable on selected models.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "DELL5",
+          "description": "5% off on accessories.",
+          "expiry_date": "2025-04-15",
+          "condition": "Valid for online purchases only.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.dell.com",
+      "category": "Electronics",
+      "isSaleOn": true
+    },
+    {
+      "_id": "12d44f55g",
+      "brand_name": "LG",
+      "rating": 4.6,
+      "description": "Premium home appliances and electronics.",
+      "brand_logo": "https://i.ibb.co.com/WsZWCCB/LG.png",
+      "coupons": [
+        {
+          "coupon_code": "LG20",
+          "description": "20% off on OLED TVs.",
+          "expiry_date": "2025-04-10",
+          "condition": "Applicable for new customers only.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.lg.com",
+      "category": "Electronics",
+      "isSaleOn": true
+    },
+    {
+      "_id": "13f66g77h",
+      "brand_name": "Zara",
+      "rating": 4.2,
+      "description": "Contemporary clothing for every occasion.",
+      "brand_logo": "https://i.ibb.co.com/8MzJ0XQ/ZARA.png",
+      "coupons": [
+        {
+          "coupon_code": "ZARA15",
+          "description": "15% off on new collections.",
+          "expiry_date": "2025-02-28",
+          "condition": "Minimum purchase $50.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "ZARA20",
+          "description": "20% off during the weekend sale.",
+          "expiry_date": "2025-03-10",
+          "condition": "Valid for in-store purchases.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "ZARA30",
+          "description": "30% off on end-of-season sale items.",
+          "expiry_date": "2025-04-01",
+          "condition": "Applicable on clearance items only.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.zara.com",
+      "category": "Clothing",
+      "isSaleOn": false
+    },
+    {
+      "_id": "14h88i99j",
+      "brand_name": "Levi's",
+      "rating": 4.5,
+      "description": "Iconic denim wear and accessories.",
+      "brand_logo": "https://i.ibb.co.com/QHHw1zf/LEVIS.png",
+      "coupons": [
+        {
+          "coupon_code": "LEVIS20",
+          "description": "20% off on orders above $100.",
+          "expiry_date": "2025-03-05",
+          "condition": "No restrictions.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "LEVIS10",
+          "description": "10% off for first-time buyers.",
+          "expiry_date": "2025-02-20",
+          "condition": "Valid for online purchases only.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.levi.com",
+      "category": "Clothing",
+      "isSaleOn": true
+    },
+    {
+      "_id": "15k00l11m",
+      "brand_name": "MAC Cosmetics",
+      "rating": 4.1,
+      "description": "Luxury cosmetics and beauty essentials.",
+      "brand_logo": "https://i.ibb.co.com/JpHfWpk/MAC.png",
+      "coupons": [
+        {
+          "coupon_code": "MAC15",
+          "description": "15% off on lipsticks.",
+          "expiry_date": "2025-01-20",
+          "condition": "Valid for online and in-store purchases.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "MAC25",
+          "description": "25% off on selected beauty kits.",
+          "expiry_date": "2025-03-01",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.maccosmetics.com",
+      "category": "Beauty",
+      "isSaleOn": true
+    },
+    {
+      "_id": "16n22o33p",
+      "brand_name": "L'Oréal",
+      "rating": 4.3,
+      "description": "Innovative skincare and haircare products.",
+      "brand_logo": "https://i.ibb.co.com/x693NCJ/LOREAL.png",
+      "coupons": [
+        {
+          "coupon_code": "LOREAL10",
+          "description": "10% off on skincare range.",
+          "expiry_date": "2025-02-15",
+          "condition": "Valid for online purchases only.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.loreal.com",
+      "category": "Beauty",
+      "isSaleOn": false
+    },
+    {
+      "_id": "17q44r55s",
+      "brand_name": "Puma",
+      "rating": 4.4,
+      "description": "Trendy sports gear and apparel.",
+      "brand_logo": "https://i.ibb.co.com/ngxt4zJ/PUMA.png",
+      "coupons": [
+        {
+          "coupon_code": "PUMA10",
+          "description": "10% off on sports shoes.",
+          "expiry_date": "2025-02-28",
+          "condition": "No restrictions.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "PUMA15",
+          "description": "15% off on new arrivals.",
+          "expiry_date": "2025-03-15",
+          "condition": "Minimum purchase $100.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "PUMA20",
+          "description": "20% off for first-time buyers.",
+          "expiry_date": "2025-04-10",
+          "condition": "Valid for online purchases.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.puma.com",
+      "category": "Fitness",
+      "isSaleOn": true
+    },
+    {
+      "_id": "18s66t77u",
+      "brand_name": "Under Armour",
+      "rating": 4.3,
+      "description": "Performance-focused sportswear.",
+      "brand_logo": "https://i.ibb.co.com/KKvCR59/UNDER-ARMOUR.png",
+      "coupons": [
+        {
+          "coupon_code": "UA20",
+          "description": "20% off on activewear.",
+          "expiry_date": "2025-03-15",
+          "condition": "Valid for in-store purchases.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.underarmour.com",
+      "category": "Fitness",
+      "isSaleOn": false
+    },
+    {
+      "_id": "19v88w99x",
+      "brand_name": "Nintendo",
+      "rating": 4.7,
+      "description": "Classic consoles and games for all ages.",
+      "brand_logo": "https://i.ibb.co.com/NKgfgcS/NINTENDO.png",
+      "coupons": [
+        {
+          "coupon_code": "SWITCH20",
+          "description": "20% off on Nintendo Switch accessories.",
+          "expiry_date": "2025-04-01",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Percentage"
+        },
+        {
+          "coupon_code": "GAME5",
+          "description": "5% off on all gaming consoles.",
+          "expiry_date": "2025-03-20",
+          "condition": "Applicable for online purchases only.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.nintendo.com",
+      "category": "Gaming",
+      "isSaleOn": true
+    },
+    {
+      "_id": "20y99z00a",
+      "brand_name": "Razer",
+      "rating": 4.8,
+      "description": "Top-tier gaming peripherals and laptops.",
+      "brand_logo": "https://i.ibb.co.com/G7Djr6w/RAZER.png",
+      "coupons": [
+        {
+          "coupon_code": "RAZER15",
+          "description": "15% off on gaming headsets.",
+          "expiry_date": "2025-03-20",
+          "condition": "No minimum purchase.",
+          "coupon_type": "Percentage"
+        }
+      ],
+      "shop_link": "https://www.razer.com",
+      "category": "Gaming",
+      "isSaleOn": true
     }
   ]
+
   

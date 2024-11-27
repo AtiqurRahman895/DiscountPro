@@ -4,7 +4,7 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TransferLists } from "../../Contexts/TransferLists";
 
 const Base = () => {
@@ -12,9 +12,27 @@ const Base = () => {
   const [selectedCategory,setSelectedCategory] =useState('All Brands')
   const [searchedBrand, setSearchedBrand]=useState()
   const [brandsToShow, setBrandsToShow]=useState(coupons)
+  const [bookmarks, setBookmarks] = useState([]);
+  const [loading, setLoading]= useState(true)
 
+  useEffect(()=>{
+    if(window.localStorage.getItem('bookmarks')){
+      setBookmarks(JSON.parse(window.localStorage.getItem('bookmarks')))
+    }
+    setLoading(false)
+  },[])
 
-  const value={coupons,selectedCategory,setSelectedCategory,searchedBrand,setSearchedBrand,brandsToShow,setBrandsToShow,}
+  useEffect(()=>{
+    loading || window.localStorage.setItem('bookmarks',JSON.stringify(bookmarks))
+  },[bookmarks])
+
+  const value={coupons,
+    selectedCategory,setSelectedCategory,
+    searchedBrand,setSearchedBrand,
+    brandsToShow,setBrandsToShow,
+    bookmarks, setBookmarks,
+    loading, setLoading,
+  }
 
   return (
     <>
